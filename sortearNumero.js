@@ -1,7 +1,6 @@
 const lowerValue = 1;
 const higherValue = 100;
 const drawnNumber = generateRandomNumber();
-console.log(drawnNumber);
 
 function generateRandomNumber(){
     return parseInt(Math.random() * higherValue + 1);
